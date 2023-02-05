@@ -1,0 +1,127 @@
+ 
+      #container {
+        width: 60%;
+        height: 400px;
+        display: flex;
+        
+        margin-top: 30px;
+        margin: auto;
+      }
+      #left {
+        width: 50%;
+      }
+
+      #bg {
+        position: relative;
+      }
+
+      #firstBackground {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 1;
+      }
+
+      #firstBackground > img {
+        width: 450px;
+        height: 400px;
+        margin-left: 300px;
+        margin-top: 10px;
+        
+      }
+
+      #SecondBackground {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 1;
+      }
+
+      #SecondBackground > img {
+        width: 250px;
+        height: 250px;
+        margin-left: 400px;
+        margin-top: 50px;
+      }
+
+      #ThirdBackground {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 1;
+      }
+
+      #ThirdBackground img {
+        width: 250px;
+        height: 360px;
+        margin-left: 400px;
+        margin-top: 50px;
+      }
+
+      #right {
+        width: 50%;
+        border: 1px solid rgb(114, 111, 111);
+      }
+
+      #right > div > img {
+        width: 100%;
+        margin-top: 100px;
+      }
+
+   
+      form > div {
+       
+        padding: 15px;
+        border-bottom: 1px solid rgb(106, 104, 104);
+      }
+
+      input {
+        height: 30px;
+        width:80%;
+      }
+
+      #submit{
+        width: 90%;
+        background-color: black;
+        color: white;
+        border: none;
+      }
+
+ @media screen and (max-width: 1500px) {
+        #container{
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            margin-left: 100px;
+           
+        }
+
+        
+      #firstBackground > img {
+        width: 450px;
+        height: 400px;
+        margin-left: 100px;
+        margin-top: 10px;
+       
+      }
+        #SecondBackground > img {
+        width: 250px;
+        height: 250px;
+        margin-left: 200px;
+        margin-top: 50px;
+      }
+
+       #ThirdBackground img {
+        width: 250px;
+        height: 360px;
+        margin-left: 200px;
+        margin-top: 50px;
+      }
+
+        #right{
+            width:450px;
+             margin-top: 400px;
+
+        }
+      } 
+   
